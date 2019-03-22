@@ -1,0 +1,80 @@
+.grid-content {
+	grid-area: content; 
+	white-space: normal !important;
+	width: 475px !important;
+	color: rgba(255, 255, 255, 0.45) !important;
+}
+
+#feed_title {
+	font-size: 20px !important;
+	line-height: 32px !important;
+	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+img.img_preview {
+	width: 130px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 5px;
+	border: 1px solid #333333;
+}
+
+img.img_card_preview {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 5px;
+	border: 1px solid #333333;
+}
+
+#slide-out {
+	visibility: hidden;
+	position: absolute;
+	z-index: 900;
+	top: 0px;
+	right: 0px;
+	width: 55%;
+	height: 100%;
+	background-color: #000000;
+	border-radius: 10px 0px 0px 10px;
+	overflow: auto;
+	padding: 100px;
+}
+
+#slide-out-shadow {
+	visibility: hidden;
+	position: absolute;
+	z-index: 899;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	opacity: 0.2;
+}
+
+.grid-full-title {
+	font: normal normal bold 30px/34px SansCn !important;
+	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.grid-title {
+	font: normal normal bold 20px/24px SansCn !important;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#content-wrap#content-wrap #floatingTitle.Unread .title,
+#content-wrap#content-wrap [data-article-id].cdm.Unread .title,
+#content-wrap#content-wrap .hl.Unread .title {
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.active-display {
+	color: rgba(255, 255, 255, 1) !important;
+	cursor: pointer;
+}
+
+.inactive-display {
+	color: rgba(255, 255, 255, 0.3) !important;
+	cursor: pointer;
+}
